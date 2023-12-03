@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import './config/db.js';
 
 const app = express(); //app initialization
 const port = 3000;
